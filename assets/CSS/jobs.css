@@ -10,6 +10,12 @@
     }
 }
 
+h1 {
+  padding: 40px 0;
+  text-align: center;
+  color: white;
+}
+
   .main-container {
     background: #007bff;
     background-color: red;
@@ -50,10 +56,12 @@
   }
   
   .card-container {
+
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 40px;
     animation: fadeIn 1s ease-in-out;
+    padding: 40px 50px 80px 50px;
   }
   
   .card {
@@ -115,6 +123,7 @@
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
+    margin: 30px 0;
     font-size: 16px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;

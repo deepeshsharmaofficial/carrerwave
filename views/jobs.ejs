@@ -3,7 +3,7 @@
 
 <div class="main-container">
 
-    <h1 style="text-align: center; color: white; margin: 20px 0;">Job Listings</h1>
+    <h1>Job Listings</h1>
     <div class="sort-by-container">
         <label for="sort-by" style="color: rgb(231, 231, 231);">Sort by:</label>
         <select name="sort-by" id="sort-by">
@@ -14,13 +14,10 @@
             <option value="Internship">Internship</option>
         </select>
     </div>
-    <div class="card-container">
+    <div class="card-container ">
         <% jobs.forEach(function(job) { %>
             <div class="card">
                 <ul class="list-group list-group-flush">
-                    <!-- <div class="card-header">
-                        <img src="<%= job.companyLogo %>" alt="<%= job.company %>" />
-                    </div> -->
                     <li class="list-group-item">
                         <h3>
                            <%= job.title %>
