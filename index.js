@@ -79,7 +79,7 @@ app.get('/jobs', (req, res) => {
         });
 });
 
-app.get('/jobs/new', (req, res) => {
+app.get('/new-jobs', (req, res) => {
     res.render('new', {
         title: 'Job Listing'
     });
