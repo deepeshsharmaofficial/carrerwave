@@ -145,3 +145,8 @@ h1 {
   }
   
   
+  @media(max-width:500px){
+    .card-container {
+      padding: 20px 50px 80px 20px;
+    }
+  }
