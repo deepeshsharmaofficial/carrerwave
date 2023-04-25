@@ -1,0 +1,38 @@
+<link rel="stylesheet" href="/css/new.css">
+
+<div class="main-container">
+    <h1>New Job Listing</h1>
+    <form action="/jobs" method="POST">
+        <label for="title">Title:</label>
+        <input type="text" name="title" required />
+        <br />
+        <label for="description">Description:</label>
+        <textarea name="description" required></textarea>
+        <br />
+        <label for="company">Company:</label>
+        <input type="text" name="company" required />
+        <br />
+        <label for="jobType">Job Type:</label>
+        <select name="jobType" required>
+            <option value="">Select a job type</option>
+            <option value="Full-time">Full-time</option>
+            <option value="Part-time">Part-time</option>
+            <option value="Freelance">Freelance</option>
+            <option value="Internship">Internship</option>
+        </select>
+        <br />
+        <label for="jobLink">Job Link:</label>
+        <input type="text" name="jobLink" required />
+        <br />
+        <label for="batch">Batch:</label>
+        <select name="batch" required>
+            <option value="">Select a batch year</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+        </select>
+        <br />
+        <button type="submit"> Add Job Listing </button>
+    </form>
+</div>

@@ -1,0 +1,138 @@
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(50%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+  .main-container {
+    background: #007bff;
+    background-color: red;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .sort-by-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  select {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .card {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card:active {
+    transform: translateY(-3px);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-header {
+    height: 100px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-header img {
+    max-height: 80px;
+    max-width: 80%;
+    object-fit: contain;
+  }
+  
+  .card h3 {
+    font-size: 24px;
+    margin: 20px 20px 10px 20px;
+  }
+  
+  .card h4 {
+    font-size: 18px;
+    margin: 10px 20px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    margin: 10px 20px;
+  }
+  
+  .card strong {
+    font-weight: bold;
+  }
+  
+  .card button.btn {
+    background-color: hsl(204, 100%, 60%);
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .card button.btn:hover {
+    background-color: #e9ecef;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+
+  .card button.btn:active {
+    transform: translateY(-3px);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  

@@ -1,0 +1,65 @@
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"> -->
+<link rel="stylesheet" href="/CSS/jobs.css">
+
+<div class="main-container">
+
+    <h1 style="text-align: center; color: white; margin: 20px 0;">Job Listings</h1>
+    <div class="sort-by-container">
+        <label for="sort-by" style="color: rgb(231, 231, 231);">Sort by:</label>
+        <select name="sort-by" id="sort-by">
+            <option value="">Select a job type</option>
+            <option value="Full-time">Full-time</option>
+            <option value="Part-time">Part-time</option>
+            <option value="Freelance">Freelance</option>
+            <option value="Internship">Internship</option>
+        </select>
+    </div>
+    <div class="card-container">
+        <% jobs.forEach(function(job) { %>
+            <div class="card">
+                <ul class="list-group list-group-flush">
+                    <!-- <div class="card-header">
+                        <img src="<%= job.companyLogo %>" alt="<%= job.company %>" />
+                    </div> -->
+                    <li class="list-group-item">
+                        <h3>
+                           <%= job.title %>
+
+                        </h3>
+                    </li>
+                    <li class="list-group-item">
+                        <h4>
+                            <%= job.company %>
+                        </h4>
+                    </li>
+                    <li class="list-group-item">
+                        <p>
+                            Description - <%= job.description %>
+                        </p>
+                    </li>
+                    <li class="list-group-item">
+                        <p>
+                            <%= job.jobType %>
+                        </p>
+                    </li>
+                    <li class="list-group-item">
+                        <p>
+                            Batch - <%= job.batch %>
+                        </p>
+                    </li>
+                    <li class="list-group-item">
+                        <p>
+                            Posted on <%= job.date.toLocaleDateString() %>
+                        </p>
+                    </li>
+                </ul>
+                <div style="text-align: center;">
+                    <button class="btn"><a href="<%= job.jobLink %>" target="_blank">Apply Now</a></button>
+                </div>
+            </div>
+            <% }) %>
+    </div>
+</div>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> -->
+<script src="/js/jobs.js"></script>

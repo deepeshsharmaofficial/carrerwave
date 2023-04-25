@@ -1,0 +1,15 @@
+.user-sign-container {
+    background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+    height: 100vh;
+}
+  
+.btn-log {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+}
+
+.profile-detail-name {
+    text-transform: capitalize;
+}

@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="/CSS/user_sign.css">
+
+<div class="user-sign-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+                <div class="card border-0 shadow rounded-3 my-5">
+                    <div class="card-body p-4 p-sm-5">
+                        <h5 class="card-title text-center mb-5 fw-light fs-5">Profile Page</h5>
+        
+                        <table class="table mb-6">
+                            <tr>
+                                <td>
+                                    Name
+                                </td>
+                                <td class="profile-detail-name">
+                                    <%= user.name %>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Email
+                                </td>
+                                <td>
+                                    <%= user.email %>
+                                </td>
+                            </tr>
+                        </table>
+    
+                        <div class="d-grid">
+                            <a href="/users/sign-out" class="btn btn-primary" role="button">Sign Out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+</div>
