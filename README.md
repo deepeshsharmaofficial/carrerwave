@@ -15,13 +15,6 @@ HTML, CSS, JavaScript, Node.js, Express, MongoDb, Mongoose
 <img width="719" alt="pic-5" src="https://user-images.githubusercontent.com/91846967/234943907-95de455f-5bbb-4508-b37d-7d94fa9f2b60.png">
 <img width="719" alt="pic-4" src="https://user-images.githubusercontent.com/91846967/234943936-0e9ddbe4-6c43-44b4-9566-13760a4efbd5.png">
 
-## Video
-
-
-https://user-images.githubusercontent.com/91846967/234945426-ffe6c9d3-b23d-4a62-adf4-c379f218004c.mp4
-
-
-
 ## 🔗 Links
 ### Team Name - Rear Warriors
 ### Team Leader - Deepesh Sharma 
