@@ -5,7 +5,7 @@ Welcome to our website! We are a job information platform dedicated to connectin
 
 ## Tech Stack
 
-HTML, CSS, JavaScript, Node.js, Express, MongoDb, Mongoose
+HTML, CSS, Bootstrap, JavaScript, Node.js, Express, MongoDb, Mongoose
 
 ## Screen Shots
 <img width="720" alt="pic-1-min" src="https://user-images.githubusercontent.com/91846967/234944323-f39dbfc6-6ceb-4cf8-9adc-f39d8d634578.png">
